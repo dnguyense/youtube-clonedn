@@ -1,6 +1,8 @@
 import './App.css';
 import {BrowserRouter, Route,Routes } from "react-router-dom";
-import Box from "@mui/material";
+import {Box} from "@mui/material";
+import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed, SearchBar} from "./components"
+
 
 function App() {
   return (
@@ -16,6 +18,6 @@ function App() {
       </Box>
     </BrowserRouter>
   );
-}
+} 
 
 export default App;
